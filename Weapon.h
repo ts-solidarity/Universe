@@ -9,7 +9,7 @@ class Weapon : public Item
 
 public:
 
-	Weapon(std::string weaponName, Grade weaponGrade, int baseAttack, int baseDefence, std::shared_ptr<Character> weaponOwner);
+	Weapon(std::string weaponName, Grade weaponGrade, int baseAttack, int baseDefence);
 	std::shared_ptr<Weapon> Get();
 
 	void Use() override;

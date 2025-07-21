@@ -3,8 +3,8 @@
 
 
 
-Armor::Armor(std::string armorName, Grade armorGrade, std::shared_ptr<Character> armorOwner, int protectionValue)
-	: Item(armorName, Type::Armor, armorGrade, armorOwner), protection(protectionValue)
+Armor::Armor(std::string armorName, Grade armorGrade, int protectionValue)
+	: Item(armorName, Type::Armor, armorGrade), protection(protectionValue)
 {
 
 }

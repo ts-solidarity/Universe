@@ -81,6 +81,7 @@ bool Character::IsInInventory(int uniqueId)
 void Character::AddItem(std::shared_ptr<Item> item)
 {
 	inventory.emplace_back(item);
+	item->itemOwner= Get();
 }
 
 void Character::DeleteItem(std::shared_ptr<Item> item)

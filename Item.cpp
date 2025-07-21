@@ -29,11 +29,6 @@ Item::Item(std::string itemName, Type itemType, Grade itemGrade)
 	InitItem();
 }
 
-Item::Item(std::string itemName, Type itemType, Grade itemGrade, std::shared_ptr<Character> itemUser)
-	: itemName(itemName), itemType(itemType), itemGrade(itemGrade), itemOwner(itemUser)
-{
-	InitItem();
-}
 
 std::shared_ptr<Item> Item::Get()
 {

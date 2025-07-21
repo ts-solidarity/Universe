@@ -7,7 +7,7 @@ class Ware : public Item
 
 public:
 
-	Ware(std::string wareName, Grade wareGrade, std::shared_ptr<Character> wareOwner);
+	Ware(std::string wareName, Grade wareGrade);
 
 
 	void Use() override;

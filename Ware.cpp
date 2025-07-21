@@ -1,7 +1,7 @@
 #include "Ware.h"
 
-Ware::Ware(std::string wareName, Grade wareGrade, std::shared_ptr<Character> wareOwner)
-	: Item(wareName, Type::Ware, wareGrade, wareOwner)
+Ware::Ware(std::string wareName, Grade wareGrade)
+	: Item(wareName, Type::Ware, wareGrade)
 {
 
 }

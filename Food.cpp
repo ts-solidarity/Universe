@@ -2,8 +2,8 @@
 #include "Character.h"
 
 
-Food::Food(std::string foodName, Grade foodGrade, std::shared_ptr<Character> foodOwner, int boost)
-	: Item(foodName, Type::Food, foodGrade, foodOwner), vitalsBoost(boost)
+Food::Food(std::string foodName, Grade foodGrade, int boost)
+	: Item(foodName, Type::Food, foodGrade), vitalsBoost(boost)
 {
 
 }

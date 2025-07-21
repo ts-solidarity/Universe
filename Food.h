@@ -7,7 +7,7 @@ class Food : public Item
 public:
 
 
-	Food(std::string foodName, Grade foodGrade, std::shared_ptr<Character> foodOwner, int boost);
+	Food(std::string foodName, Grade foodGrade, int boost);
 
 
 	void Use() override;

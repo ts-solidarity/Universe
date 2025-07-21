@@ -3,8 +3,8 @@
 
 
 
-Potion::Potion(std::string potionName, Grade potionGrade, std::shared_ptr<Character> potionOwner, std::array<int, 3> vitalsBoost)
-	: Item(potionName, Type::Potion, potionGrade, potionOwner), vitalsBoost(vitalsBoost)
+Potion::Potion(std::string potionName, Grade potionGrade, std::array<int, 3> vitalsBoost)
+	: Item(potionName, Type::Potion, potionGrade), vitalsBoost(vitalsBoost)
 {
 
 }

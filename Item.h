@@ -29,7 +29,6 @@ public:
 public:
 
 	Item(std::string itemName, Type itemType, Grade itemGrade);
-	Item(std::string itemName, Type itemType, Grade itemGrade, std::shared_ptr<Character> itemUser);
 	std::shared_ptr<Item> Get();
 	std::shared_ptr<Character> GetOwner() const;
 	std::shared_ptr<Character> GetOwner();

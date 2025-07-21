@@ -9,7 +9,7 @@ class Armor : public Item
 
 public:
 
-	Armor(std::string armorName, Grade armorGrade, std::shared_ptr<Character> armorOwner, int protectionValue);
+	Armor(std::string armorName, Grade armorGrade, int protectionValue);
 
 	void Use() override;
 	void Equip() override;
